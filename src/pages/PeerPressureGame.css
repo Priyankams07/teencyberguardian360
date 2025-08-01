@@ -1,0 +1,47 @@
+.peer-pressure-game {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  background-color: #f2f8ff;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.scenario-box {
+  background: white;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.scenario-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.options button {
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #0056b3;
+}
+
+.score-box {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 15px;
+  max-width: 400px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

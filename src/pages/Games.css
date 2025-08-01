@@ -1,0 +1,156 @@
+.games-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+
+.games-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1e2a38;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+/* Dashboard Icon */
+.dashboard-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 14px;
+  background: transparent;
+  width: 200px;
+}
+
+.search-icon {
+  color: #888;
+  font-size: 16px;
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Game Section */
+.games-section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Game Grid */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Game Card */
+.game-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 230px;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.game-card h3 {
+  color: #34495e;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.game-card p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Play Button */
+.play-button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.play-button:hover {
+  background-color: #005ed8;
+  transform: scale(1.05);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 120px;
+  }
+
+  .games-section {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .game-card {
+    padding: 20px;
+    min-height: 200px;
+  }
+}

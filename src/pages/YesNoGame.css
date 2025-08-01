@@ -1,0 +1,74 @@
+.yesno-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    padding: 20px;
+  }
+  
+  .yesno-game-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .yesno-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .yes-button,
+  .no-button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yes-button {
+    background-color: #007bff;
+  }
+  
+  .yes-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-button {
+    background-color: #dc3545;
+  }
+  
+  .no-button:hover {
+    background-color: #c82333;
+  }
+  
+  .feedback {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .completion-message {
+    font-size: 20px;
+    color: #2e7d32;
+  }
+  

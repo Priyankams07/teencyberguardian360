@@ -1,0 +1,67 @@
+.courtroom-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courtroom-card {
+    margin-top: 2rem;
+  }
+  
+  .scenario {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .option-button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .selected {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .correct {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .next-button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .result {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  

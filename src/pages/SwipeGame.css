@@ -1,0 +1,58 @@
+.swipe-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .scenario-card {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .scenario-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .red-flag, .green-flag {
+    font-size: 30px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .red-flag {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .green-flag {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .red-flag:hover, .green-flag:hover {
+    transform: scale(1.1);
+  }
+  
+  .feedback {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    height: 25px;
+  }
+  

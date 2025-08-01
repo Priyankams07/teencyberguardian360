@@ -1,0 +1,66 @@
+.spot-fake-game {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f8faff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s;
+  border: 3px solid transparent;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+}
+
+.profile-card.selected {
+  border-color: #2980b9;
+}
+
+.profile-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.result-message {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-message.correct {
+  color: green;
+}
+
+.result-message.wrong {
+  color: red;
+}
+
+.result-message button {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

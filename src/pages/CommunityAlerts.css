@@ -1,0 +1,63 @@
+.community-alerts {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fdfefe;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  color: #2e86de;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.alert-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.alert-form input,
+.alert-form textarea {
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.alert-form button {
+  background-color: #2e86de;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.alert-card {
+  background-color: #f4f6f7;
+  border-left: 5px solid #2e86de;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.alert-card h3 {
+  margin: 0 0 10px;
+}
+
+.alert-card .posted-by {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
